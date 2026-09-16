@@ -1,23 +1,7 @@
 /* ===================== THEME VARIABLES ===================== */
+/* Light mode is now the default (:root). Dark mode is the override. */
 
 :root {
-  --bg-primary: #081b33;
-  --bg-gradient-1: #1b2735;
-  --bg-gradient-2: #22344a;
-  --text-primary: #ffffff;
-  --text-secondary: #e6edf3;
-  --text-muted: #a0aec0;
-  --card-bg: rgba(255,255,255,0.06);
-  --card-border: rgba(255,255,255,0.15);
-  --nav-bg: rgba(10, 10, 20, 0.55);
-  --input-bg: rgba(255,255,255,0.05);
-  --surface: #0d1520;
-  --accent-1: #3ecfe0;
-  --accent-2: #c58cff;
-  --accent-3: #ff8cd6;
-}
-
-[data-theme="light"] {
   --bg-primary: #f4f7fb;
   --bg-gradient-1: #eef2f7;
   --bg-gradient-2: #dde6f0;
@@ -32,6 +16,23 @@
   --accent-1: #0891a8;
   --accent-2: #8b5cf6;
   --accent-3: #d6478f;
+}
+
+[data-theme="dark"] {
+  --bg-primary: #081b33;
+  --bg-gradient-1: #1b2735;
+  --bg-gradient-2: #22344a;
+  --text-primary: #ffffff;
+  --text-secondary: #e6edf3;
+  --text-muted: #a0aec0;
+  --card-bg: rgba(255,255,255,0.06);
+  --card-border: rgba(255,255,255,0.15);
+  --nav-bg: rgba(10, 10, 20, 0.55);
+  --input-bg: rgba(255,255,255,0.05);
+  --surface: #0d1520;
+  --accent-1: #3ecfe0;
+  --accent-2: #c58cff;
+  --accent-3: #ff8cd6;
 }
 
 * { margin:0; padding:0; box-sizing:border-box; font-family:'Segoe UI', Arial, sans-serif; }
