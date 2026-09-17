@@ -58,15 +58,12 @@ body {
   align-items: center;
   justify-content: center;
   transition: transform 0.35s ease, box-shadow 0.35s ease, background 0.35s ease;
-  margin-right: 12px;
 }
 
 .theme-toggle:hover {
   transform: rotate(20deg) scale(1.1);
   box-shadow: 0 0 15px rgba(62,207,224,0.4);
 }
-
-
 
 
 /* ===================== HOME SECTION ===================== */
@@ -93,7 +90,7 @@ body {
   #Home {
     height: auto;
     min-height: 100vh;
-    padding: 100px 20px 40px 20px;
+    padding: 90px 20px 40px 20px;
     justify-content: flex-start;
     align-items: center;
   }
@@ -282,12 +279,13 @@ body {
         font-size: 22px;
     }
 
-    .menu-btn {
-        display: block;
+    .theme-toggle {
         margin-left: auto;
     }
-    .theme-toggle {
-      margin-left: 0;
+
+    .menu-btn {
+        display: block;
+        margin-left: 10px;
     }
 
     .nava ul {
@@ -479,6 +477,10 @@ body {
     text-align: left;
     gap: 15px;
     padding: 15px;
+  }
+
+  .profile-card {
+    height: 340px;
   }
 
   .text-content .name { font-size: 2rem; }
