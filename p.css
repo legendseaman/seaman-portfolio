@@ -67,6 +67,8 @@ body {
 }
 
 
+
+
 /* ===================== HOME SECTION ===================== */
 
 #Home {
@@ -92,7 +94,7 @@ body {
     height: auto;
     min-height: 100vh;
     padding: 100px 20px 40px 20px;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
   }
 }
@@ -282,6 +284,10 @@ body {
 
     .menu-btn {
         display: block;
+        margin-left: auto;
+    }
+    .theme-toggle {
+      margin-left: 0;
     }
 
     .nava ul {
